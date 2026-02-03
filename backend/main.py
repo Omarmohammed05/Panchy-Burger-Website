@@ -7,7 +7,8 @@ app = FastAPI(title="Panchy Restaurant API", version="1.0.0")
 # CORS configuration
 origins = [
     "http://localhost:3000",
-    "https://*.vercel.app",  # Support for Vercel preview/production links
+    "https://*.vercel.app",
+    "https://*.netlify.app",  # Added Netlify support
     "http://localhost:8000",
 ]
 
